@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <!-- agregar boostrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- agregar fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+  
+</head>
+<body>
+
+<div class="container-sm">
+  <!--navegador-->
+    <nav class="navbar navbar-expand-lg  navbar-light sticky-top">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/diego-lujan-837a0a73">Diego Ricardo Luján</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Sobre mi </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Porfolio</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Contactame</a>
+            </li>
+           
+          </ul>
+         
+        </div>
+        
+      </nav> 
+      <!--presentacion-->
+      <section>
+        <div class="container d-flex align-items-center flex-colums"></div>
+        <a name="section1"></a><h1>Diego Ricardo Lujan</h1></a>
+        <img class="Diego" src="img/fotoporfolio.jpg">
+        <h2>Desarrollador front-end - Técnico reparador de pc</h2>
+        </section><a name="section2"></a>
+        
+        <!--herramientas y habilidades-->
+      <section>
+        <h2>Skills</h2>
+        <i class="fab fa-html5">
+          <p>Nivel intermedio</p>
+        </i>
+        <i class="fab fa-css3-alt">
+          <p>Nivel intermedio</p>
+        </i>
+        <i class="fab fa-js">
+          <p>Nivel intermedio</p>
+        </i>
+        <i class="fab fa-java">
+          <p>Nivel intermedio</p>
+        </i>
+        <i class="fas fa-tools">
+          <p>Técnico en reparación de pc</p>
+          <div><p>Licenciado en comuniciación social</p>
+            <p>Periodista profesional</p>
+              <ul>Inglés intermedio</ul>
+              <ul>Portugués avanzado</ul>
+            </div>  
+        </i>
+       
+      </section>
+      <a name="section3"></a>
+      <!--trabajos realizados-->
+      <section>
+        <h2>Porfolio</h2>
+        <div class="row">
+          <div class="col">
+        <div class="card1" style="width: 18rem;">
+          <img src="img/imgcuadradook.jpg" class="card-img-top" alt="cuadrado-movil">
+          <div class="card-body">
+            <h5 class="card-title">Cuadrado movil</h5>
+            <p class="card-text">Ejecutamos un cuadrado que se va transformando durante su paso por las esquinas del contenedor</p>
+            <a href="https://loving-mcnulty-595a7e.netlify.app" class="btn btn-primary">ir a ver...</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card1" style="width: 18rem;">
+          <img src="img/diseñoportadaok.jpg" class="card-img-top" alt="portada">
+          <div class="card-body">
+            <h5 class="card-title">Diseño</h5>
+            <p class="card-text">En esta ejercitación había que copiar un diseño propuesto por el docente, utilizando sólo css.</p>
+            <a href="https://sleepy-neumann-b9ac84.netlify.app" class="btn btn-primary">ir a ver...</a>
+          </div>
+        </div>
+      </div>
+        <div class="col">
+        <div class="card1" style="width: 18rem;">
+          <img src="img/contactosok.jpg" class="card-img-top" alt="contactos">
+          <div class="card-body">
+            <h5 class="card-title">Contactos</h5>
+            <p class="card-text">En este ejercicio hicimos los contactos, ofertas y domicilios de distintos bares de la ciudad.</p>
+            <a href="https://wonderful-neumann-772c1e.netlify.app" class="btn btn-primary">ir a ver...</a>
+          </div>
+        </div>
+      </div>
+        </div>
+      </section>
+      <a name="section4"></a>
+      <!--contactos-->
+      <section>
+        <h2>Contactame</h2>
+        <a href="https://es-la.facebook.com/drl.lujan"><i class="fab fa-facebook"></i></a>  
+        <a href="https://www.instagram.com/drl_lujan/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/diego-lujan-837a0a73/"><i class="fab fa-linkedin"></i></a>
+      
+      <!--formulario-->
+        
+      <form action="https://formspree.io/f/mnqobbgn" method="POST">
+                <p><h3><label for="nombre">Sugerencias:</label></h3></p>
+        <input type="text" id="sugerencia" name="sugerencia" placeholder="Escribe tu sugerencia" required>
+        <p><h3><label for="apellido">Comentarios:</label></h3></p>
+        <input type="text" id="comentario" name="comentario" placeholder="Escribe tu comentario" required>
+        <br>
+        <p><h3><label for="consultas">Consultas:</label></h3></p>
+        <textarea name="consulta" rows="4" cols="40" placeholder="Escriba su consulta" required></textarea>
+        <br>
+        <input type="submit" value="Enviar" class="btn btn-primary">
+      </form>
+    </section>
+
+   
+    
+    <!--footer-->
+      <section>
+      <footer>Diego Ricardo Luján 2020</footer></section>    
+    </div>
+    
+    <!--agregar jquery y bundle que incluye popper-->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
